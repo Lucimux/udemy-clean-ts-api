@@ -1,5 +1,3 @@
-import { type } from "os";
-
 export type AuthenticationModel = {
     email: string
     password: string
