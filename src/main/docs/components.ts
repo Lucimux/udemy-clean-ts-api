@@ -5,7 +5,7 @@ import {
   unauthorized,
   notFound,
   forbidden
-} from './components'
+} from './docs-components'
 
 export default {
   securitySchemes: {
