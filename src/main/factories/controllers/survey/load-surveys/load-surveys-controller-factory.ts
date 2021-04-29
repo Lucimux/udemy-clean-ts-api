@@ -4,6 +4,6 @@ import { LoadSurveysController } from '@/presentation/controllers/survey/load-su
 import { makeDbLoadSurveys } from '../../../usecases/survey/load-surveys/db-load-surveys'
 
 export const makeLoadSurveysController = (): Controller => {
-    const controller = new LoadSurveysController(makeDbLoadSurveys())
-    return makeLogController(controller)
+  const controller = new LoadSurveysController(makeDbLoadSurveys())
+  return makeLogController(controller)
 }

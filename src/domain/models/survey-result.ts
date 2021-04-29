@@ -1,7 +1,7 @@
-export type SurveyResultModel = {
-    id: string
-    surveyId: string
-    accountId: string
-    answer: string
-    date: Date
+export interface SurveyResultModel {
+  id: string
+  surveyId: string
+  accountId: string
+  answer: string
+  date: Date
 }

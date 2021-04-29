@@ -3,6 +3,6 @@ import { Controller } from '@/presentation/protocols'
 import { LogMongoRepository } from '@/infra/db/mongodb/log/log-mongo-repository'
 
 export const makeLogController = (controller: Controller): Controller => {
-    const logMongoRepository = new LogMongoRepository()
-    return new LogControllerDecorator(controller, logMongoRepository)
+  const logMongoRepository = new LogMongoRepository()
+  return new LogControllerDecorator(controller, logMongoRepository)
 }
